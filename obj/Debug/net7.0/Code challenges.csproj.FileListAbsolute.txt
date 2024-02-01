@@ -1,0 +1,14 @@
+\\kings.internal\Students$\2018\bschroeder18\My Documents\C+ Projects\Code challenges\bin\Debug\net7.0\Code challenges.exe
+\\kings.internal\Students$\2018\bschroeder18\My Documents\C+ Projects\Code challenges\bin\Debug\net7.0\Code challenges.deps.json
+\\kings.internal\Students$\2018\bschroeder18\My Documents\C+ Projects\Code challenges\bin\Debug\net7.0\Code challenges.runtimeconfig.json
+\\kings.internal\Students$\2018\bschroeder18\My Documents\C+ Projects\Code challenges\bin\Debug\net7.0\Code challenges.dll
+\\kings.internal\Students$\2018\bschroeder18\My Documents\C+ Projects\Code challenges\bin\Debug\net7.0\Code challenges.pdb
+\\kings.internal\Students$\2018\bschroeder18\My Documents\C+ Projects\Code challenges\obj\Debug\net7.0\Code challenges.GeneratedMSBuildEditorConfig.editorconfig
+\\kings.internal\Students$\2018\bschroeder18\My Documents\C+ Projects\Code challenges\obj\Debug\net7.0\Code challenges.AssemblyInfoInputs.cache
+\\kings.internal\Students$\2018\bschroeder18\My Documents\C+ Projects\Code challenges\obj\Debug\net7.0\Code challenges.AssemblyInfo.cs
+\\kings.internal\Students$\2018\bschroeder18\My Documents\C+ Projects\Code challenges\obj\Debug\net7.0\Code challenges.csproj.CoreCompileInputs.cache
+\\kings.internal\Students$\2018\bschroeder18\My Documents\C+ Projects\Code challenges\obj\Debug\net7.0\Code challenges.dll
+\\kings.internal\Students$\2018\bschroeder18\My Documents\C+ Projects\Code challenges\obj\Debug\net7.0\refint\Code challenges.dll
+\\kings.internal\Students$\2018\bschroeder18\My Documents\C+ Projects\Code challenges\obj\Debug\net7.0\Code challenges.pdb
+\\kings.internal\Students$\2018\bschroeder18\My Documents\C+ Projects\Code challenges\obj\Debug\net7.0\Code challenges.genruntimeconfig.cache
+\\kings.internal\Students$\2018\bschroeder18\My Documents\C+ Projects\Code challenges\obj\Debug\net7.0\ref\Code challenges.dll
