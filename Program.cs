@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections;
+using System.ComponentModel.DataAnnotations;
+using System.Globalization;
 using System.Runtime.CompilerServices;
 
 
@@ -34,6 +37,12 @@ namespace PythonChallenges
                         break;
                     case 8:
                         Challenge8();
+                        break;
+                    case 10:
+                        Challenge10();
+                        break;
+                    case 11:
+                        Challenge11();
                         break;
                     case 20:
                         Challenge20();
@@ -144,6 +153,89 @@ namespace PythonChallenges
             }
         }
 
+        static void Challenge10()
+        {
+            string compguess = "error";
+            string playguess;
+            int randval;
+            int condition = 2;
+
+            Random rnd = new    Random();
+            randval = rnd.Next(0,4);
+
+            switch (randval)
+            {
+                case 1:
+                    compguess = "rock";
+                    break;
+                case 2:
+                    compguess = "scissors";
+                    break;
+                case 3:
+                    compguess = "paper";
+                    break;
+            }
+
+            Console.WriteLine("'rock' 'paper' or 'scissors'");
+            playguess = Console.ReadLine();
+            string playguessnew = playguess.ToLower();
+            
+            Console.WriteLine(compguess);
+
+            if (playguessnew == "rock")
+            {
+                if (compguess == "paper"){
+                    condition = 0;
+                }
+                else if (compguess == "scissors"){
+                    condition = 1;
+                }
+            }
+            else if (playguessnew == "paper")
+            {
+                if (compguess == "scissors"){
+                    condition = 0;
+                }
+                else if (compguess == "rock"){
+                    condition = 1;
+                }
+            }
+            else if (playguessnew == "scissors")
+            {
+                if (compguess == "paper"){
+                    condition = 1;
+                }
+                else if (compguess == "rock"){
+                    condition = 0;
+                }
+            }
+            else{
+                Console.WriteLine("Error. Computer guess was: ", compguess);
+            }
+
+            switch (condition)
+            {
+                case 0:
+                    Console.WriteLine("You Lose");
+                break;
+                case 1:
+                    Console.WriteLine("You Win");
+                break;
+                case 2:
+                    Console.WriteLine("Draw");
+                break;
+            }
+        }
+
+        static void Challenge11()
+        {
+            Console.WriteLine("Input a sentence");
+            string sentence = Console.ReadLine();
+            int len = sentence.Length;
+            Console.WriteLine($"Your sentence is {len} characters long.");
+            Console.ReadKey();
+        } 
+
         static void Challenge20()
         {
             int guess=-1, target=7;
@@ -200,6 +292,8 @@ namespace PythonChallenges
             Console.WriteLine(" 6) Challenge 6");
             Console.WriteLine(" 7) Challenge 7");
             Console.WriteLine(" 8) Challenge 8");
+            Console.WriteLine("10) Challenge 10");
+            Console.WriteLine("11) Challenge 11");
             Console.WriteLine("20) Challenge 20");
             Console.WriteLine("28) Challenge 28");
             Console.WriteLine(" Q) Quit");
